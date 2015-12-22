@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC8FA7071C28F20A007274AD /* QYTransfer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYTransfer.h; sourceTree = "<group>"; };
 		CC9699F81C28E7CA006E07CD /* 01-CoreBluetoothDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-CoreBluetoothDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9699FC1C28E7CA006E07CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CC9699FE1C28E7CA006E07CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -111,6 +112,7 @@
 				CC9699FF1C28E7CA006E07CD /* AppDelegate.m */,
 				CC969A011C28E7CA006E07CD /* ViewController.h */,
 				CC969A021C28E7CA006E07CD /* ViewController.m */,
+				CC8FA7071C28F20A007274AD /* QYTransfer.h */,
 				CC969A2E1C28E85F006E07CD /* QYBTCentralVC.h */,
 				CC969A2F1C28E85F006E07CD /* QYBTCentralVC.m */,
 				CC969A311C28E870006E07CD /* QYBTPeripheralVC.h */,
@@ -424,6 +426,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "01-CoreBluetoothDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.-1-CoreBluetoothDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,6 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "01-CoreBluetoothDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.-1-CoreBluetoothDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -446,6 +450,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "01-CoreBluetoothDemoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.-1-CoreBluetoothDemoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -458,6 +463,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "01-CoreBluetoothDemoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.-1-CoreBluetoothDemoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -469,6 +475,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = "01-CoreBluetoothDemoUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.-1-CoreBluetoothDemoUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -481,6 +488,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = "01-CoreBluetoothDemoUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.-1-CoreBluetoothDemoUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -508,6 +516,7 @@
 				CC969A271C28E7CA006E07CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC969A281C28E7CA006E07CD /* Build configuration list for PBXNativeTarget "01-CoreBluetoothDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +525,7 @@
 				CC969A2A1C28E7CA006E07CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC969A2B1C28E7CA006E07CD /* Build configuration list for PBXNativeTarget "01-CoreBluetoothDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +534,7 @@
 				CC969A2D1C28E7CA006E07CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
